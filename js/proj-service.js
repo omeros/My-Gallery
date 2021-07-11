@@ -2,7 +2,7 @@ const gProjs =[
 {
     id: "my-instagram",
     name: "my-instagram", 
-    title: "open a new user profile, post your photos and use the chat to talk with other users ",
+    title: "creat a new user profile, post your photos and use the chat to talk with other users ",
     desc: "End-to-End CRUD social networking site, with Vuex, async programming, Web Sockets ,Users, Node.js, MongoDB,",
     url: "https://my-cloudy-instagram-app.herokuapp.com/",
     Category:"Vue.js",  
@@ -12,7 +12,7 @@ const gProjs =[
 {
   id: "minesweeper", 
   name: "mineSweeper", 
-  title: "lorem jkljkjkljlkjk",
+  title: "a Mine Sweeper Game",
   desc: "Minesweeper is a single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden mines or bombs without detonating any of them.",
   url: "https://omeros.github.io/Mine-Sweeper/",
   Category:"Vanilla js",  

@@ -25,7 +25,7 @@ function renderProj() {
                   </a>
                   <div class="portfolio-caption">
                       <h4>${proj.name}</h4>
-                      <p class="text-muted">${proj.desc}</p>
+                      <p class="text-muted">${proj.title}</p>
                   </div>
               </div>`
   }).join('')
@@ -56,7 +56,7 @@ function renderModal(){
                             <p class="item-intro text-muted">${proj.name}.</p>
                             <img class="img-fluid-on d-block mx-auto"  src="img/projs/${proj.id}.PNG"  alt="">
                             <ul class="list-inline">
-                            <p>${proj.title}</p>
+                            <p>${proj.desc}</p>
                               <li> ${proj.Category}</li>
                               <a href="${proj.url}" target="_blank">link to Project</a>  
                             </ul>
