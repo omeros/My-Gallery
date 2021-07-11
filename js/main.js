@@ -1,8 +1,13 @@
 'use strict'
+$(init)
+
+function init() {
+  renderProj();
+  renderModal();
+  $('.send-btn').click(mailMe)
+}
 
 
-renderProj();
-renderModal();
 
 function renderProj() {
 
@@ -20,7 +25,7 @@ function renderProj() {
                   </a>
                   <div class="portfolio-caption">
                       <h4>${proj.name}</h4>
-                      <p class="text-muted">${proj.title}</p>
+                      <p class="text-muted">${proj.desc}</p>
                   </div>
               </div>`
   }).join('')
@@ -47,16 +52,13 @@ function renderModal(){
                         <div class="col-lg-8 mx-auto">
                           <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto"  src="img/projs/${proj.id}.png"  alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis
-                              dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                              maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <h2>${proj.name}</h2>
+                            <p class="item-intro text-muted">${proj.name}.</p>
+                            <img class="img-fluid-on d-block mx-auto"  src="img/projs/${proj.id}.png"  alt="">
                             <ul class="list-inline">
-                              <li>Date: January 2017</li>
-                              <li>Client: Threads</li>
-                              <li>Category: Illustration</li>
+                            <p>${proj.title}</p>
+                              <li> ${proj.Category}</li>
+                              <a href="${proj.url}" target="_blank">link to Project</a>  
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fa fa-times"></i>
@@ -73,4 +75,10 @@ $('.modalBox').html(strHTML)
 }
 
 
+function mailMe() {
+  console.log('hey');
+  var subject = $('input[name=subject]').val()
+  var body = $('textarea[name=comment]').val().replace(/\n/g, `%0d%0a`)
+  window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=omer.golan.dev@gmail.com&su=${subject}&body=${body}`)
 
+}

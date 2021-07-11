@@ -84,7 +84,8 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background-image: linear-gradient(#ffffff, #9c9c9c); 
+    /* background:#f1f1f1; */
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -252,6 +253,7 @@ header.masthead .intro-text .intro-heading {
     position: relative;
     display: block;
     max-width: 400px;
+    height: 300px;
     margin: 0 auto;
     cursor: pointer;
 }
@@ -759,7 +761,6 @@ fieldset[disabled] .btn-xl:hover {
 
 /* reset bootstrap*/
 .row {
-    
     margin-right: 0;
     margin-left: 0;
 }
@@ -767,4 +768,74 @@ fieldset[disabled] .btn-xl:hover {
 .container {
     padding-right: 0;
     padding-left: 0;
+}
+.contact{
+    /* background-image: linear-gradient(#ffffff, #f1f1f1); */
+}
+.send-btn{
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #1a73e8;
+    color: #ffffff;
+    padding: 5px 26px;
+    font-size: large;
+}
+.subject-input-container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subject-input{
+    border-radius: 8px;
+    resize: none;
+    padding: 8px 16px;
+    width: 22vw;
+}
+.comment-me-txtArea{
+    border-radius: 8px;
+    padding: 5px 16px;
+    resize: none;
+    width: 22vw;
+    height: 300px;
+}
+.col-md-4:hover {
+    box-shadow: 5px 5px 8px 3px #d8d5d5be;  
+}
+.col-md-4 {
+}
+
+.img-fluid{
+    height: 40vh;
+    width: 100%;
+    object-fit: fill;
+
+}
+.img-fluid-on{
+    height: 70vh;
+    width: 80%;
+}
+.text-muted{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.react{
+    width: 150px;
+}
+.vue{
+ width: 80px;
+}
+.angular{
+    width: 100px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+@media screen and (max-width: 380px) {
+
+.subject-input{
+    width: 50vw;
+}
+.comment-me-txtArea{
+    width: 50vw;    
+}
 }
