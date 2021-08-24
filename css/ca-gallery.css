@@ -249,17 +249,17 @@ header.masthead .intro-text .intro-heading {
     right: 0;
     margin: 0 0 15px;
 }
-#portfolio .portfolio-item .portfolio-link {
-    position: relative;
+#portfolio .portfolio-item .portfolio-link {  
     display: block;
     max-width: 400px;
-    height: 300px;
-    margin: 0 auto;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
-    width: 100%;
+    width: 20vw;
     height: 100%;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
@@ -813,7 +813,7 @@ fieldset[disabled] .btn-xl:hover {
 
 .img-fluid{
     height: 15vw;
-    width: 100%;
+    width: 50vw;
     object-fit: fill;
 
 }
@@ -838,6 +838,13 @@ fieldset[disabled] .btn-xl:hover {
     padding-top: 0px;
 }
 
+@media screen and (max-width: 580px) {
+    .img-fluid{
+        width: 35vw;
+        height: 25vw;
+    }
+
+}
 @media screen and (max-width: 380px) {
 
 .subject-input{
@@ -846,4 +853,6 @@ fieldset[disabled] .btn-xl:hover {
 .comment-me-txtArea{
     width: 50vw;    
 }
+
+
 }
