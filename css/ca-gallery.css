@@ -812,14 +812,14 @@ fieldset[disabled] .btn-xl:hover {
 }
 
 .img-fluid{
-    height: 35vh;
+    height: 15vw;
     width: 100%;
     object-fit: fill;
 
 }
 .img-fluid-on{
-    height: 50vh;
-    width: 80%;
+    height: 50vw;
+    width: 50vw;
 }
 .text-muted{
     white-space: nowrap;

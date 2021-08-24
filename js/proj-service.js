@@ -10,17 +10,6 @@ const gProjs =[
     date :  "march 2021 "
 },
 {
-  id: "minesweeper", 
-  name: "mineSweeper", 
-  title: "a Mine Sweeper Game",
-  desc: "Minesweeper is a single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden mines or bombs without detonating any of them.",
-  url: "https://omeros.github.io/Mine-Sweeper/",
-  Category:"Vanilla js",  
-  modal : "portfolioModal1",
-  img : "Vanilla js",
-  date : " january 2021 "
-},
-{
   id: "memegen",
   name: "memegen", 
   title: "Now you can create your own Meme",
@@ -31,15 +20,17 @@ const gProjs =[
   date : " february 2021 "
 }, 
 {
-  id: "packman", 
-  name: "packman", 
-  title: "Enjoy the game",
-  desc: "In Pac-Man, the player move around a maze. The goal is to eat every dot pellet (circles) while not getting caught by the ghosts. For extra points, fruits that appear can also be eaten. When Pac-Man eats a big pellet, the ghosts start to flash and can be eaten.",
-  url: "https://omeros.github.io/packman/",
-  Category:"Vanilla js", 
-  modal : "portfolioModal2",
-  date : "january 2021 "
-},  
+  id: "minesweeper", 
+  name: "mineSweeper", 
+  title: "a Mine Sweeper Game",
+  desc: "Minesweeper is a single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden mines or bombs without detonating any of them.",
+  url: "https://omeros.github.io/Mine-Sweeper/",
+  Category:"Vanilla js",  
+  modal : "portfolioModal1",
+  img : "Vanilla js",
+  date : " january 2021 "
+},
+  
 
 ]
 
