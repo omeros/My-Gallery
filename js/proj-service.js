@@ -3,7 +3,7 @@ const gProjs =[
     id: "my-instagram",
     name: "my-instagram", 
     title: "choose a user or creat a new a one, post your photos and use the chat to talk with other users ",
-    desc: "End-to-End CRUD social networking site, with Vuex, async programming, Web Sockets ,Users, Node.js, MongoDB,",
+    desc: "End-to-End CRUD social networking site, with Vue.js, Vuex, async programming, Web Sockets ,Users, Node.js, MongoDB,",
     url: "https://my-cloudy-instagram-app.herokuapp.com/",
     Category:"Vue.js",  
     modal : "portfolioModal4",
