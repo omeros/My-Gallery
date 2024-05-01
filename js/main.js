@@ -58,7 +58,7 @@ function renderModal(){
                             <ul class="list-inline">
                             <p>${proj.desc}</p>
                               <li> ${proj.Category}</li>
-                              <a href="${proj.url}" target="_blank">link to Project</a>  
+                              <a href="${proj.url}" target="_blank"  style="color: chartreuse;">link to Project</a>  
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fa fa-times"></i>
