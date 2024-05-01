@@ -39,16 +39,16 @@ function renderModal(){
 
   const strHTML = projects.map(function(proj) {
     // return  `<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    return  `<div class="portfolio-modal modal fade" id="${proj.modal}" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
+    return  `<div class="portfolio-modal modal fade" id="${proj.modal}" tabindex="-1" role="dialog" aria-hidden="true" >
+                <div class="modal-dialog" >
+                  <div class="modal-content" style=" background-color: #f0f2f5;">
                     <div class="close-modal" data-dismiss="modal">
                       <div class="lr">
                         <div class="rl"></div>
                       </div>
                     </div>
                     <div class="container">
-                      <div class="row">
+                      <div class="row" style=" background-color: white;">
                         <div class="col-lg-8 mx-auto">
                           <div class="modal-body">
                             <!-- Project Details Go Here -->
