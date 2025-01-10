@@ -30,6 +30,17 @@ const gProjs =[
   img : "Vanilla js",
   date : " january 2021 "
 },
+{
+  id: "largest_square", 
+  name: "largest Square", 
+  title: "a Mine Sweeper Game",
+  desc: "Minesweeper is a single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden mines or bombs without detonating any of them.",
+  url: "https://algoquest-js-server.onrender.com/",
+  Category:"vue.js",  
+  modal : "portfolioModal6",
+  img : "./css/img/largest_square.png",
+  date : " october 2024 "
+},
   
 
 ]

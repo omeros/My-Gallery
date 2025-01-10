@@ -820,7 +820,7 @@ fieldset[disabled] .btn-xl:hover {
 }
 .img-fluid-on{
     height: 27vw;
-    width: 50vw;
+    width: 100%;
 }
 .text-muted{
     white-space: nowrap;
@@ -828,6 +828,9 @@ fieldset[disabled] .btn-xl:hover {
     text-overflow: ellipsis;
 }
 .react{
+    width: 150px;
+}
+.nodejs{
     width: 150px;
 }
 .vue{
