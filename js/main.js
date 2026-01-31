@@ -54,7 +54,8 @@ function renderModal(){
                             <!-- Project Details Go Here -->
                             <h2>${proj.name}</h2>
                             <p class="item-intro text-muted">${proj.name}.</p>
-                            <img class="img-fluid-on d-block mx-auto"  src="img/projs/${proj.id}.PNG"  alt="">
+                            <a href="${proj.url}" target="_blank"  style="color: chartreuse;"><img class="img-fluid-on d-block mx-auto"  src="img/projs/${proj.id}.PNG"  alt=""></a>  
+                            
                             <ul class="list-inline">
                             <p>${proj.desc}</p>
                               <li> ${proj.Category}</li>

@@ -1,10 +1,10 @@
 const gProjs =[ 
 {
-    id: "my-instagram",
-    name: "my-instagram", 
+    id: "galleryflow",
+    name: "gallery flow", 
     title: "choose a user or creat a new a one, post your photos and use the chat to talk with other users ",
-    desc: "End-to-End CRUD social networking site, with Vue.js, Vuex, async programming, Web Sockets ,Users, Node.js, MongoDB,",
-    url: "https://my-instagram.onrender.com/",
+    desc: "like Instagram End-to-End CRUD social networking web site, with Vue.js, Vuex, async programming, Web Sockets ,Users, Node.js, MongoDB,",
+    url: "https://galleryflow.onrender.com",
     Category:"Vue.js",  
     modal : "portfolioModal4",
     date :  "march 2021 "
